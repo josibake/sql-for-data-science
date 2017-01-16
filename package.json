@@ -1,0 +1,15 @@
+{
+  "name": "psql-science",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Norfolk Data Science",
+  "license": "MIT",
+  "dependencies": {
+    "next": "beta"
+  },
+  "scripts": {
+    "dev": "next -p 3000",
+    "prestart": "next build",
+    "start": "next start -p ${PORT}"
+  }
+}
